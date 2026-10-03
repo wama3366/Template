@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <UserSecretsId>library-template-api</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" />
+    <PackageReference Include="Serilog.AspNetCore" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LibraryTemplate.Application\LibraryTemplate.Application.csproj" />
+    <ProjectReference Include="..\LibraryTemplate.Infrastructure\LibraryTemplate.Infrastructure.csproj" />
+    <ProjectReference Include="..\LibraryTemplate.Persistence\LibraryTemplate.Persistence.csproj" />
+  </ItemGroup>
+</Project>

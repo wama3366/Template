@@ -1,0 +1,6 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <Folder Include="Aggregates\" />
+    <Folder Include="Services\" />
+  </ItemGroup>
+</Project>

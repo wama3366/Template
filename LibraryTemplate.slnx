@@ -1,0 +1,11 @@
+<Solution>
+  <Project Path="LibraryTemplate.Api.IntegrationTests/LibraryTemplate.Api.IntegrationTests.csproj" />
+  <Project Path="LibraryTemplate.Api/LibraryTemplate.Api.csproj" />
+  <Project Path="LibraryTemplate.Application.Tests/LibraryTemplate.Application.Tests.csproj" />
+  <Project Path="LibraryTemplate.Application/LibraryTemplate.Application.csproj" />
+  <Project Path="LibraryTemplate.Domain.Tests/LibraryTemplate.Domain.Tests.csproj" />
+  <Project Path="LibraryTemplate.Domain/LibraryTemplate.Domain.csproj" />
+  <Project Path="LibraryTemplate.Infrastructure/LibraryTemplate.Infrastructure.csproj" />
+  <Project Path="LibraryTemplate.Persistence.Tests/LibraryTemplate.Persistence.Tests.csproj" />
+  <Project Path="LibraryTemplate.Persistence/LibraryTemplate.Persistence.csproj" />
+</Solution>
